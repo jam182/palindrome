@@ -1,4 +1,4 @@
-from numbers import PalindromeNumber
-from doublebase import DoubleBasePalindrome
+from palindrome.numbers import PalindromeNumber
+from palindrome.doublebase import DoubleBasePalindrome
 
 __all__ = ['PalindromeNumber', 'DoubleBasePalindrome']
