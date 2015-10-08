@@ -55,10 +55,13 @@ First one-digit numbers are actually a special case, generated in the same fashi
 but stripping out the zero's.
 
 Install
---------
+-------
 - Clone Repo: ```git clone https://github.com/jam182/palindrome.git```
 - ```cd palindrome```
 - ```python setup.py install```
+
+Example
+-------
 - ```python```
 - ```>>> from palindrome import numbers```
 - ```>>> from palindrome import doublebase```
