@@ -56,7 +56,8 @@ but stripping out the zero's.
 
 Install
 -------
-- Clone Repo: ```git clone https://github.com/jam182/palindrome.git```
+Clone Repo: 
+- ```git clone https://github.com/jam182/palindrome.git```
 - ```cd palindrome```
 - ```python setup.py install```
 
@@ -71,6 +72,5 @@ Example
 - ```>>> b = doublebase.DoubleBasePalindrome()```
 - ```>>> b```
 - ```DoubleBasePalindrome(max_number=1000000)```
-- ```>>> b.is_double_base_palindrome(1)```
 - ```>>> b.is_double_base_palindrome(1)```
 - ```True```
