@@ -5,7 +5,7 @@ import unittest
 
 class PalindromeTests(unittest.TestCase):
 
-    def test_sum_One_Million_palindromes(self):
+    def test_sum_one_million_palindromes(self):
         """Sum 1 million double base palindromes"""
         palindromes = DoubleBasePalindrome()
         result = palindromes.sum_palindrome_numbers()
