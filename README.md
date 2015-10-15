@@ -74,3 +74,6 @@ Example
 - ```DoubleBasePalindrome(max_number=1000000)```
 - ```>>> b.is_double_base_palindrome(1)```
 - ```True```
+- ```>>> b.sum_palindrome_numbers()```
+- ```872187```
+
