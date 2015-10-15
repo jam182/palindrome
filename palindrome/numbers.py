@@ -25,7 +25,7 @@ class PalindromeNumber(object):
     def is_palindrome(s):
         """Check whether a string is palindrome"""
         s = str(s)
-        for i in range(len(s)):
+        for i in xrange(len(s)):
             first = s[i]
             last = s[-i-1]
             if first != last:
@@ -80,7 +80,7 @@ class PalindromeNumber(object):
             start_range = int(10**(palindrome_length_level - 1))
             end_range = max(10, 10**palindrome_length_level)
 
-            for symmetry in range(start_range, end_range):
+            for symmetry in xrange(start_range, end_range):
                 symmetry = str(symmetry)
                 length_is_even = palindrome_length % 2 == 0
 
@@ -89,7 +89,7 @@ class PalindromeNumber(object):
                                                        exc=StopIteration)
                     yield palindrome
                 else:
-                    for center in range(0, 10):
+                    for center in xrange(0, 10):
                         palindrome = self.build_palindrome(symmetry,
                                                            center=str(center),
                                                            exc=StopIteration,
