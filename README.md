@@ -1,5 +1,7 @@
 Project Euler Problem 36
 ========================
+
+[![Join the chat at https://gitter.im/jam182/palindrome](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/jam182/palindrome?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [Double-base palindromes](https://projecteuler.net/problem=36)
 -------------------------
 The decimal number, 585 = 1001001001 (binary), is palindromic in both bases.
